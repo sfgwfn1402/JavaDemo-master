@@ -34,3 +34,4 @@ target/classes/config.properties
 target/maven-archiver/pom.properties
 
 README.md
+/target/

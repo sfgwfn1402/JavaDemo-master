@@ -10,9 +10,11 @@ import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 
 /**
- * 字节码生成机制演示AOP
+ * 字节码生成机制演示AOP<br>
+ * 使用Cglib来实现动态字节码技术。Cglib是一个强大的,高性能的Code生成类库，它可以在运行期间扩展Java类和实现Java接口，它封装了Asm，
+ * 所以使用Cglib前需要引入Asm的jar
  * 
- * @author tengfei.fangtf
+ * @author duwei
  */
 public class CglibAopDemo {
 
